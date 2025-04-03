@@ -2,7 +2,7 @@ const PostalMime = require("postal-mime");
 const { convert } = require('html-to-text');
 
 // It's 4096
-const DISCORD_EMBED_LIMIT = 4096;
+const DISCORD_EMBED_LIMIT = 3500;
 // This may be higher if your server is boosted to level 2, it should be 50MB. If your server is boosted to level 3, it should be 100MB.
 const DISCORD_FILE_LIMIT = 8000000;
 
